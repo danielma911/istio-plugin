@@ -1,0 +1,17 @@
+[
+	{
+		"source_service": "vv15-src-service",
+		"destination_service": "vv15-dst-service",
+		"source_namespace": "vv15-src-namespace",
+		"destination_namespace": "vv15-dst-namespace",
+		"protocol": "gRPCCustom"
+	},
+	{
+		"source_service": "productpage-v1",
+		"destination_service": "reviews",
+		"source_namespace": "default",
+		"destination_namespace": "default",
+		"protocol": "gRPCCustom"
+	}
+]
+
